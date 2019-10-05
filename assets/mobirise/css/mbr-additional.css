@@ -32,31 +32,31 @@ body {
 }
 .display-2 {
   font-family: 'Cairo', sans-serif;
-  font-size: 2.6rem;
+  font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 2.6rem;
+  font-size: 3rem;
 }
 .display-4 {
   font-family: 'Cairo', sans-serif;
-  font-size: 0.875rem;
+  font-size: 1.5rem;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 0.875rem;
+  font-size: 1.5rem;
 }
 .display-5 {
   font-family: 'Cairo', sans-serif;
-  font-size: 1.125rem;
+  font-size: 2.5rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 1.125rem;
+  font-size: 2.5rem;
 }
 .display-7 {
   font-family: 'Cairo', sans-serif;
-  font-size: 1.125rem;
+  font-size: 2rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.125rem;
+  font-size: 2rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -70,19 +70,19 @@ body {
     line-height: calc( 1.4 * (1.98rem + (3.8 - 1.98) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.08rem;
-    font-size: calc( 1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.4rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.7rem;
-    font-size: calc( 0.95625rem + (0.875 - 0.95625) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.95625rem + (0.875 - 0.95625) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 0.9rem;
-    font-size: calc( 1.04375rem + (1.125 - 1.04375) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.04375rem + (1.125 - 1.04375) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2rem;
+    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -650,13 +650,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Cairo', sans-serif;
-  font-size: 1.125rem;
+  font-size: 2rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1rem;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.125rem;
+  font-size: 2rem;
 }
 .form-control,
 .form-control:focus {
@@ -1540,6 +1540,10 @@ section.lazy-placeholder:after {
 }
 .cid-rDjdr0o1IP {
   background-image: url("../../../assets/images/background1.jpg");
+}
+.cid-rDjdr0o1IP .mbr-text,
+.cid-rDjdr0o1IP .mbr-section-btn {
+  text-align: right;
 }
 .cid-rDjdrW0wjh {
   padding-top: 150px;
