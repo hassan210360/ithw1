@@ -1539,11 +1539,19 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rDjdr0o1IP {
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-image: url("../../../assets/images/background1.jpg");
 }
 .cid-rDjdr0o1IP .mbr-text,
 .cid-rDjdr0o1IP .mbr-section-btn {
   text-align: right;
+}
+.cid-rDjdr0o1IP .mbr-section-title DIV {
+  text-align: right;
+}
+.cid-rDjdr0o1IP .mbr-section-title {
+  color: #f5f7fa;
 }
 .cid-rDjdrW0wjh {
   padding-top: 150px;
