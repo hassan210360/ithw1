@@ -707,6 +707,9 @@ section.lazy-placeholder:after {
 .cid-rGGNS0oG9V .menu-logo .navbar-brand .navbar-logo .mbr-iconfont {
   transition: font-size 0.25s;
 }
+.cid-rGGNS0oG9V p {
+  text-align: center;
+}
 .cid-rGGNS0oG9V .menu-content-top {
   background: #0a1c44;
   max-width: 100%;
