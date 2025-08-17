@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Simple Project Site</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+  }
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    position: relative;
+    margin: 0 1rem;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem;
+    display: block;
+  }
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+  }
+  nav ul li:hover ul {
+    display: block;
+  }
+  nav ul li ul li {
+    margin: 0;
+  }
+  nav ul li ul li a {
+    padding: 0.5rem;
+  }
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1581091012184-5c9af0b2f3f0');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  }
+  .hero h1 {
+    font-size: 3rem;
+    background: rgba(0,0,0,0.4);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+  }
+  main {
+    padding: 2rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo"><strong>Our Company</strong></div>
+    <ul>
+      <li>
+        <a href="#">Projects</a>
+        <ul>
+          <li><a href="#">LMIS</a></li>
+          <li><a href="#">Pipes</a></li>
+          <li><a href="#">Accounts</a></li>
+          <li><a href="#">MandE</a></li>
+          <li><a href="#">AI_CV</a></li>
+        </ul>
+      </li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="hero">
+  <h1>Engineering the Future Offshore</h1>
+</section>
+<main>
+  <h2>Welcome</h2>
+  <p>This is a simple, clean site showcasing our key projects and expertise in offshore engineering and oil platform construction. Our teams are equipped with the knowledge, skills, and safety gear to perform at the highest standards.</p>
+</main>
+</body>
+</html>
